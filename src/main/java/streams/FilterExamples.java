@@ -1,3 +1,7 @@
+package streams;
+
+import model.Employee;
+
 import java.util.List;
 import java.util.function.Predicate;
 
@@ -14,7 +18,7 @@ public class FilterExamples {
 
         System.out.println("------------------------------------------------------------------------------------------------");
 
-        //IT Department Employee
+        //IT Department model.Employee
         var ItEmployees = employees.stream().filter(employee1 -> employee1.getDepartment().equals("IT")).toList();
         ItEmployees.forEach(System.out::println);
 

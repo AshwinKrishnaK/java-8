@@ -1,3 +1,5 @@
+package model;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -71,7 +73,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "model.Employee{" +
                 "age=" + age +
                 ", id=" + id +
                 ", name='" + name + '\'' +
